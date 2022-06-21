@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Isro-Mangalyaan</title>
+  <link rel="shortcut icon" href="img/isro-favicon.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://kit.fontawesome.com/1def09dae5.js" crossorigin="anonymous"></script>
+  <script src="jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+  <!--  container start -->
+  <div class="container">
+
+     <!--  tobar start -->
+     <div class="topbar">
+
+      <!-- logo start -->
+      <div class="logo">
+        <a href="index.html"> <img src="img/mainlogo.png" alt="logo"></a>
+      </div>
+      <!-- logo end -->
+
+      <!-- menu start -->
+      <div class="menu">
+
+        <input type="checkbox" id="click">
+        <label for="click" class="hambtn"> <i class="fas fa-bars"></i></label>
+        <ul>
+          <li> <a href="index.html"> Home</a></li>
+          <li> <a href="about-isro.html"> About ISRO</a></li>
+          <li> <a href="project-mom.html"> Project-MOM</a></li>
+          <li> <a href="our-team.html"> Our Team</a></li>
+          <li> <a href="gallery.html"> Gallery</a></li>
+          <li> <a href="news.html"> News </a></li>
+        </ul>
+
+        <input type="search" value="Type to search..." id="search" >
+        <!-- <i class="fas fa-search" id="fa-search"  ></i> -->
+
+        <div class="bimal" id="bimal">
+         
+          
+          <input type="search" value="Type to search..." id="searchi" >
+          <i class="fas fa-times"  onclick="hidemenu()" ></i>
+       
+        </div>
+        <i class="fas fa-search" id="style"  onclick="showmenu()"></i>
+
+     
+
+
+        <input type="checkbox" id="fclick">
+        <label for="fclick">
+          <i class="fas fa-user" id="active"> </i>
+        </label>
+
+        <div class="form">
+          <h1> Login</h1>
+          <h2> Please Loging to explore Isro</h2>
+
+          <form action="#" method="get">
+            <input type="email" placeholder="rupeshjha7796@gmail.com">
+            <input type="password" placeholder="password">
+            <h3> <a href="#">Forgot password ? </a></h3>
+            <input type="submit" value="Log In" id="fbutton">
+            <h4> Or</h4>
+            <h5> Login With</h5>
+          </form>
+
+
+          <div class="social">
+            <a href="https://www.facebook.com/ISRO/"> <i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"> <i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/"> <i class="fab fa-twitter"></i></a>
+          </div>
+
+        </div>
+
+
+      </div>
+      <!-- menu end -->
+    </div>
+
+
+  </div>
+  <!-- container end -->
+
+
+  <div class="aboutbg">
+
+    <video width="100%" height="100%" autoplay muted loop>
+      <source src="img/about/ISRO and Vikram Sarabhai during it_s early years(480P).mp4">
+      <source src="movie.ogg">
+    </video>
+    <div class="aboutbg1">
+      <h1> ISRO - INDIAN SPACE RESEARCH ORGANISATION</h1>
+      <p> Space technology in the Service of mankind.</p>
+
+      <p style="font-size: 13px;"> - vikram Sarabhai -</p>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="menudirection">
+      <ul>
+        <li> <a href="index.html"> Home &rarr;</a></li>
+        <li> <a href="about-isro.html"> <span> About-Isro </span></a></li>
+      </ul>
+    </div>
+
+    <div class="about-section">
+      <h1> ABOUT-ISRO</h1>
+      <p> India decided to go to space when Indian National Committee for Space Research (INCOSPAR) was set up by the
+        Government of India in 1962. With the visionary Dr Vikram Sarabhai at its helm, INCOSPAR set up the Thumba
+        Equatorial Rocket Launching Station (TERLS) in Thiruvananthapuram for upper atmospheric research.
+
+        Indian Space Research Organisation, formed in 1969, superseded the erstwhile INCOSPAR. Vikram Sarabhai, having
+        identified the role and importance of space technology in a Nation's development, provided ISRO the necessary
+        direction to function as an agent of development. ISRO then embarked on its mission to provide the Nation space
+        based services and to develop the technologies to achieve the same independently.
+
+        Throughout the years, ISRO has upheld its mission of bringing space to the service of the common man, to the
+        service of the Nation. In the process, it has become one of the six largest space agencies in the world. ISRO
+        maintains one of the largest fleet of communication satellites (INSAT) and remote sensing (IRS) satellites, that
+        cater to the ever growing demand for fast and reliable communication and earth observation respectively. ISRO
+        develops and delivers application specific satellite products and tools to the Nation: broadcasts,
+        communications, weather forecasts, disaster management tools, Geographic Information Systems, cartography,
+        navigation, telemedicine, dedicated distance education satellites being some of them.
+
+        To achieve complete self reliance in terms of these applications, it was essential to develop cost efficient and
+        reliable launch systems, which took shape in the form of the Polar Satellite Launch Vehicle (PSLV). The famed
+        PSLV went on to become a favoured carrier for satellites of various countries due to its reliability and cost
+        efficiency, promoting unprecedented international collaboration. The Geosynchronous Satellite Launch Vehicle
+        (GSLV) was developed keeping in mind the heavier and more demanding Geosynchronous communication satellites.
+
+        Apart from technological capability, ISRO has also contributed to science and science education in the country.
+        Various dedicated research centres and autonomous institutions for remote sensing, astronomy and astrophysics,
+        atmospheric sciences and space sciences in general function under the aegis of Department of Space. ISRO's own
+        Lunar and interplanetary missions along with other scientific projects encourage and promote science education,
+        apart from providing valuable data to the scientific community which in turn enriches science.
+
+        Future readiness is the key to maintaining an edge in technology and ISRO endeavours to optimise and enhance its
+        technologies as the needs and ambitions of the country evolve. Thus, ISRO is moving forward with the development
+        of heavy lift launchers, human spaceflight projects, reusable launch vehicles, semi-cryogenic engines, single
+        and two stage to orbit (SSTO and TSTO) vehicles, development and use of composite materials for space
+        applications etc.</p>
+    </div>
+
+
+    <div class="about-setion1">
+      <div class="vision">
+        <h3> VISION</h3>
+        <ul>
+          <li> <a href="#"> Design and development of launch vehicles and related technologies for providing access to
+              space.</a></li>
+          <li> <a href="#"> Design and development of launch vehicles and related technologies for providing access to
+              space.</a></li>
+          <li> <a href="#"> Design and development of launch vehicles and related technologies for providing access to
+              space.</a></li>
+        </ul>
+      </div>
+      <div class="vision">
+        <h3> MISSION</h3>
+        <ul>
+          <li> <a href="#"> Design and development of launch vehicles and related technologies for providing access to
+              space.</a></li>
+          <li> <a href="#"> Design and development of satellites and related technologies for earth observation,
+              communication, navigation, meteorology and space science</a></li>
+          <li> <a href="#"> Indian National Satellite (INSAT) programme for meeting telecommunication, television
+              broadcasting and developmental applications.</a></li>
+          <li> <a href="#"> Indian Remote Sensing Satellite (IRS) programme for management of natural resources and
+              monitoring of environment using space based imagery.</a></li>
+          <li> <a href="#"> Space based Applications for Societal development.</a></li>
+          <li> <a href="#"> Research and Development in space science and planetary exploration.</a></li>
+        </ul>
+      </div>
+      <div class="vision">
+        <h3> OBJECTIVES</h3>
+        <ul>
+          <li> <a href="#"> Design and development of launch vehicles and related technologies for providing access to
+              space.</a></li>
+          <li> <a href="#"> Design and development of satellites and related technologies for earth observation,
+              communication, navigation, meteorology and space science</a></li>
+          <li> <a href="#"> Indian National Satellite (INSAT) programme for meeting telecommunication, television
+              broadcasting and developmental applications.</a></li>
+          <li> <a href="#"> Indian Remote Sensing Satellite (IRS) programme for management of natural resources and
+              monitoring of environment using space based imagery.</a></li>
+          <li> <a href="#"> Space based Applications for Societal development.</a></li>
+          <li> <a href="#"> Research and Development in space science and planetary exploration.</a></li>
+        </ul>
+      </div>
+
+
+
+    </div>
+
+    <div class="about-imgsection">
+
+      <div class="img1">
+        <div class="gallery1"> <img src="img/about/img1.png" alt="img"></div>
+        <div class="galleryabout1"> <img src="img/mainlogo.png" alt="logo">
+          <p> YJ Rao shows Sarabhai the RH-75</p>
+        </div>
+      </div>
+
+      <div class="img1">
+        <div class="gallery1"> <img src="img/about/img2.png" alt="img"></div>
+        <div class="galleryabout1"> <img src="img/mainlogo.png" alt="logo">
+          <p> The rocket for India's first ever rocket launch was carried in parts on a bicycle to the launch site, a
+            church in Thiruvananthapuram in 1963.</p>
+        </div>
+      </div>
+
+      <div class="img1">
+        <div class="gallery1"> <img src="img/about/img3.png" alt="img"></div>
+        <div class="galleryabout1"> <img src="img/mainlogo.png" alt="logo">
+          <p> This photograph shows the APPLE satellite mounted on a bullock cart to provide a non-magnetic environment
+            to figure out a communication problem.</p>
+        </div>
+      </div>
+
+
+      <div class="img1">
+        <div class="gallery1"> <img src="img/about/img4.png" alt="img"></div>
+        <div class="galleryabout1"> <img src="img/mainlogo.png" alt="logo">
+          <p> Aryabhata was India's first satellite, named after the famous Indian astronomer. It was launched on 19
+            April 1975 from Kapustin Yar.</p>
+        </div>
+      </div>
+
+
+      <div class="img1">
+        <div class="gallery1"> <img src="img/about/img5.png" alt="img"></div>
+        <div class="galleryabout1"> <img src="img/mainlogo.png" alt="logo">
+          <p> The ISRO team is seen celebrating the success of SLV-3 at the Duty Officer’s desk at Vikram Sarabhai Space
+            Center.</p>
+        </div>
+      </div>
+
+
+      <div class="img1">
+        <div class="gallery1"> <img src="img/about/img6.png" alt="img"></div>
+        <div class="galleryabout1"> <img src="img/mainlogo.png" alt="logo">
+          <p> The world watched as ISRO made history on 24 September 2014. The Mars Orbiter spacecraft a.k.a Mangalyaan
+            successfully entered the Martian orbit. India became the first nation to have achieved this in its very
+            first attempt.</p>
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+    <div class="about-section">
+      <h1> GENESIS & Structure</h1>
+      <p>
+        The space research activities were initiated in our country during the early 1960’s, when applications using
+        satellites were in experimental stages even in the United States. With the live transmission of Tokyo Olympic
+        Games across the Pacific by the American Satellite ‘Syncom-3’ demonstrating the power of communication
+        satellites, Dr. Vikram Sarabhai, the founding father of Indian space programme, quickly recognized the benefits
+        of space technologies for India. <br>
+
+
+        Dr. Sarabhai was convinced and envisioned that the resources in space have the potential to address the real
+        problems of man and society. As Director, Physical Research Laboratory (PRL) located in Ahmedabad, Dr. Sarabhai
+        convened an army of able and brilliant scientists, anthropologists, communicators and social scientists from all
+        corners of the country to spearhead the Indian space programme.
+
+        To spearhead the space research activities, Indian National Committee for Space Research (INCOSPAR) was set up
+        in 1962 under the Department of Atomic Energy. Subsequently, Indian Space Research Organisation (ISRO) was
+        established in August 1969, in place of INCOSPAR. The Government of India constituted the Space Commission and
+        established Department of Space (DOS) in June 1972 and brought ISRO under DOS in September 1972.
+
+        Since inception, the Indian space programme has been orchestrated well and had three distinct elements such as,
+        satellites for communication and remote sensing, the space transportation system and application programmes. In
+        1967, the first ‘Experimental Satellite Communication Earth Station (ESCES)’ located in Ahmedabad was
+        operationalized, which also doubled as a training centre for the Indian as well as International scientists and
+        engineers.
+
+
+
+        <!-- <img src="img/about/st.marry_.jpg" alt="img" class="about-sectionimg">
+
+            <img src="img/about/Organisation Structure.png" alt="img" class="about-sectionimg"> -->
+
+      <div class="about-sectionimg">
+        <img src="img/about/st.marry_.jpg" alt="img" class="about-sectionimg">
+
+        <img src="img/about/Organisation Structure.png" alt="img" class="about-sectionimg">
+      </div>
+    </div>
+
+    <div class="about-section">
+      <h1> Vikram Sarabhai</h1>
+      <h3> Vikram Sarabhai, The Man Who Actualised The Space Dream Of Billion Of Indians</h3>
+      <p>The Indian Space Research Organisation (ISRO) achieved many milestones since its establishment, but did you
+        know?Today, we present a story about Dr. Vikram Ambalal Sarabhai, the inventor of the Indian space program
+        (ISRO).Vikram Sarabhai was the father of the Indian Space Programme Twitter One of Indias most admired
+        scientists Vikram Sarabhai, nicknamed Vikram Ambalal Sarabhai, was born in Ahmedabad on August 12, 1919.Vikram
+        Sarabhai was born into a diversified family of industrialists.
+
+        The Sarabhai family was ardent supporters of the Quit India Party against the British Raj.He attended Gujarat
+        College, Ahmadabad, before going to the University of Cambridge, England, where he earned his tripos in natural
+        sciences in 1940.Sarabhai returned to India in 1988, where he conducted experiments in cosmic rays at the Indian
+        Institute of Science, Bengaluru, due to the great limitations imposed by the Second World War.He returned to
+        Cambridge in 1945 to pursue a doctorate and published his thesis, Cosmic Ray Investigations in Tropical
+        Latitudes, in 1947.
+
+        There are a number of laboratories in various fields as the head of the Indian Space Program.On November 11,
+        1947, Vikram Sarabhai opened the Physical Research Laboratory (PRL) in Ahmedabad.At the time, he was only 28
+        years old.PRL was the first step in that direction, and Sarabhai was a creator and cultivator of institutions.
+
+        Sarabhai's career was outstanding in both scope and breadth, and in 1962, he established the Indian Institute of
+        Management (IIM) in Ahmedabad, India.After the Russian Sputnik launch (a series of three artificial Earth
+        satellites), Sarabhai convincingly persuaded the government of the importance of a space program for a
+        developing country like India.ALSO Architect of the atomic dream Dr. Homi Jehangir Bhabha assisted Dr. Sarabhai
+        in building India's first rocket launching station.The first flight was launched on November 21, 1963, with a
+        sodium vapour payload, at Thumba, near Thiruvananthapuram, on the coast of the Arabian Sea, owing to its close
+        proximity to the equator.Sarabhai was largely responsible for the establishment and construction of India's
+        nuclear power plants, bringing forward Bhabhas' work in the area of nuclear research.
+
+      </p>
+
+      <div class="flex">
+        <div class="vairamsarabhai-1">
+          <img src="img/vikramsarabhai/4.png" alt="img">
+          <div class="imagehover"> <img src="img/mainlogo.png" alt="logio">
+            <p> ISRO</p>
+          </div>
+        </div>
+
+
+        <div class="vairamsarabhai-1">
+          <img src="img/cus.jpg" alt="img">
+          <div class="imagehover"> <img src="img/mainlogo.png" alt="logio">
+            <p> ISRO</p>
+          </div>
+        </div>
+      </div>
+
+      <p> Four giants of science in a single frame:Shanti Swaroop Bhatnagar, Homi Jehangir Bhabha, CV Raman, and Vikram
+        Sarabhai Twitter is a Twitter account for the Google Translator program.SITE was developed in 1975 by NASA and
+        the Indian Space Research Organization (ISRO), and it made available informational television programs to rural
+        India.The primary aim of the project was to inform India's economically and academically illiterate population
+        on a variety of topics using satellite broadcasting, as well as to help India gain technical knowledge in the
+        field of satellite communications.Since decades, India has been increasing its launch and exploration
+        capabilities.
+
+        INCOSPAR was superseded by ISRO in 1969.In 1972, the Department of Space was established, and ISRO became part
+        of it, and it continues to this day.The Space Department reports directly to the Prime Minister of the
+        country.The Satellite Instructional Television Experiment (SITE) was conducted in 1975-1976, and was described
+        as the world's biggest sociological experiment.
+
+        The Indian satellite program began in the 1970s after the success of the Rohini rocket project in the 1960s by
+        the Indian Space Research Organizations (ISRO).According to reports, Vikram Sarabhai, the founder of ISRO,
+        recruited a team of scientists and engineers led by space scientist Dr. UR Rao to test the satellite.He was
+        honoured with two of India's highest honors, the Padma Bhushan in 1966 and the Padma Vibhushan in 1972, both of
+        which were posthumously presented.Vikram Sarabhais family continues to live strong today in India's Indian space
+        program and the nuclear program, both of which rely on indigenous development as he intended, such as the Vikram
+        Sarabhai Space Center (VSSC), which is located in Thiruvananthapuram, which is visible from the moon.
+        view of his personal wealth.</p>
+    </div>
+
+    <div class="about-section">
+      <h3> Who was Vikram Sarabhai?</h3>
+
+      <p>Dr. Sarabhai is considered as the Father of the Indian space program; He was a great institution builder and
+        established or helped to establish a large number of institutions in diverse fields. He was instrumental in
+        establishing the Physical Research Laboratory (PRL) in Ahmedabad : after returning from Cambridge to an
+        independent India in 1947, he persuaded charitable trusts controlled by his family and friends to endow a
+        research institution near home in Ahmedabad. Thus, Vikram Sarabhai founded the Physical Research Laboratory
+        (PRL) in Ahmedabad on November 11, 1947. He was only 28 at that time. Sarabhai was a creator and cultivator of
+        institutions and PRL was the first step in that direction. Vikram Sarabhai served of PRL from 1966-1971.
+
+        He was also Chairman of the Atomic Energy Commission. He along with other Ahmedabad-based industrialists played
+        a major role in the creation of the Indian Institute of Management, Ahmedabad. </p>
+      <br>
+
+      <ul>
+
+        Some of the most well-known institutions established by <span> Dr. Sarabhai are: </span>
+        <li> <a href=""> Physical Research Laboratory (PRL), Ahmedabad</a></li>
+        <li> <a href=""> Indian Institute of Management (IIM), Ahmedabad</a></li>
+        <li> <a href=""> Community Science Centre, Ahmedabad</a></li>
+        <li> <a href=""> Darpan Academy for Performing Arts, Ahmedabad (along with his wife)</a></li>
+        <li> <a href=""> Vikram Sarabhai Space Centre, Thiruvananthapuramm</a></li>
+        <li> <a href=""> Space Applications Centre, Ahmedabad (This institution came into existence after merging six
+            institutions/centres established by Sarabhai)</a></li>
+        <li> <a href=""> Faster Breeder Test Reactor (FBTR), Kalpakkam</a></li>
+        <li> <a href=""> Varaiable Energy Cyclotron Project, Calcutta</a></li>
+        <li> <a href=""> Electronics Corporation of India Limited (ECIL), Hyderabad</a></li>
+        <li> <a href=""> Uranium Corporation of India Limited (UCIL), Jaduguda, Bihar</a></li>
+
+      </ul>
+
+      <div class="flex">
+        <div class="vairamsarabhai-1">
+          <img src="img/vikramsarabhai/7.png" alt="img">
+          <div class="imagehover"> <img src="img/mainlogo.png" alt="logio">
+            <p> Vikram Sarabhai: The father of Indian Space Programme</p>
+          </div>
+        </div>
+        <div class="vairamsarabhai-1">
+          <img src="img/vikramsarabhai/vms.jpg" alt="img">
+          <div class="imagehover"> <img src="img/mainlogo.png" alt="logio">
+            <p> Vikram Sarabhai: The father of Indian Space Programme</p>
+          </div>
+        </div>
+      </div>
+
+      <p> Indian Space Program
+        The establishment of the Indian Space Research Organization (ISRO) was one of his greatest achievements. He
+        successfully convinced the government of the importance of a space programme for a developing country like India
+        after the Russian Sputnik launch. Dr. Sarabhai emphasized the importance of a space program in his quote:
+        "There are some who question the relevance of space activities in a developing nation. To us, there is no
+        ambiguity of purpose. We do not have the fantasy of competing with the economically advanced nations in the
+        exploration of the moon or the planets or manned space-flight. "
+        "But we are convinced that if we are to play a meaningful role nationally, and in the community of nations, we
+        must be second to none in the application of advanced technologies to the real problems of man and society."
+        Dr. Homi Jehangir Bhabha, widely regarded as the father of India's nuclear science program, supported Dr.
+        Sarabhai in setting up the first rocket launching station in India. This center was established at Thumba near
+        Thiruvananthapuram on the coast of the Arabian Sea, primarily because of its proximity to the equator. After a
+        remarkable effort in setting up the infrastructure, personnel, communication links, and launch pads, the
+        inaugural flight was launched on November 21, 1963 with a sodium vapour payload.
+
+        As a result of Dr. Sarabhai's dialogue with NASA in 1966, the Satellite Instructional Television Experiment
+        (SITE) was launched during July 1975 - July 1976 (when Dr.Sarabhai was no more).
+
+        Dr. Sarabhai started a project for the fabrication and launch of an Indian Satellite. As a result, the first
+        Indian satellite, Aryabhata, was put in orbit in 1975 from a Russian Cosmodrome.
+
+        Dr. Sarabhai was very interested in science education and founded a Community Science Centre at Ahmedabad in
+        1966. Today, the Centre is called the Vikram A Sarabhai Community Science Centre</p>
+
+
+    </div>
+
+    <div class="about-section">
+      <h3> Father of the Indian Space Program</h3>
+
+      <p>Vikram Sarabhai, who initiated India's space research and helped develop nuclear power in the country was a
+        great institution builder and established, or helped to establish, a large number of institutions in diverse
+        fields. Vikram Sarabhai founded the Physical Research Laboratory (PRL) in Ahmedabad on November 11, 1947. He was
+        only 28 at that time. Sarabhai was a creator and cultivator of institutions and PRL was the first step in that
+        direction. Vikram Sarabhai served of PRL from 1966-1971. from 1966-1971.</p>
+
+      <div class="flex">
+        <div class="vairamsarabhai-1">
+          <img src="img/vikramsarabhai/1.png" alt="img">
+          <div class="imagehover"> <img src="img/mainlogo.png" alt="logio">
+            <p> Vikram Sarabhai: The father of Indian Space Programme</p>
+          </div>
+        </div>
+
+        <div class="vairamsarabhai-1">
+          <img src="img/vikramsarabhai/Screenshot-2019-08-11-at-5.19.51-PM.png" alt="img">
+          <div class="imagehover"> <img src="img/mainlogo.png" alt="logio">
+            <p> Vikram A. Sarabhai (left), chairman of ISRO, and NASA administrator Thomas Paine sign an agreement in
+              September 1969</p>
+          </div>
+        </div>
+      </div>
+
+      <p>The range and breadth of Sarabhai’s interests were remarkable and realising the need for professional
+        management education in India, Sarabhai was instrumental in setting up the Indian Institute of Management (IIM)
+        in Ahmedabad in 1962.
+
+        The establishment of the Indian Space Research Organization (ISRO) was one of his greatest achievements.
+        Sarabhai successfully convinced the government of the importance of a space programme for a developing country
+        like India after the Russian Sputnik launch (a series of three artificial Earth satellites).</p>
+
+
+    </div>
+
+
+    <div class="about-section">
+      <h3>First rocket launching station in India</h3>
+
+      <p>Thumba Equatorial Rocket Launching Station (TERLS) is an Indian spaceport established on 21 November 1963.
+        Operated by the Indian Space Research Organisation (ISRO), it is located in Thumba, Thiruvananthapuram, Kerala,
+        which is near the southern tip of mainland India, very close to earth's magnetic equator. It is currently used
+        by ISRO for launching sounding rockets.
+
+        The first rockets were assembled in former St Louis High School, which houses now a space museum. The local
+        Bishop, Rev. Peter Bernard Periera, Bishop of Trivandrum, Vincent Victor Dereere (a Belgian) and district
+        collector Madhavan Nair were instrumental in acquiring a large parcel of land measuring 600 acres from coastal
+        community. The Bishop Rev. Periera had given away the prayer hall and bishop's room in the local church for
+        scientific pursuits of A. P. J. Abdul Kalam. Then Minister of State for External Affairs, Lakshmi N. Menon
+        helped a lot in smoothing the bureaucratic hurdles before the project at Delhi. H.G.S. Murthy was appointed
+        as the first Director of Thumba Equatorial Rocket Launching Station.
+
+        The sounding rocket systems for the launch were loaned by NASA and payload was provided by CNES. The event did
+        not gain the global media attention it deserved due to the Assassination of John F. Kennedy that happened in the
+        following day. </p>
+
+      <div class="flex">
+        <div class="vairamsarabhai-1">
+          <img src="img/vikramsarabhai/vknoqctbzc-1573972545.jpg" alt="img">
+          <div class="imagehover"> <img src="img/mainlogo.png" alt="logio">
+            <p> An assembled Nike-Apache sounding rocket at Thumba.</p>
+          </div>
+        </div>
+        <div class="vairamsarabhai-1">
+          <img src="img/vikramsarabhai/rocketnew-1.png" alt="img">
+          <div class="imagehover"> <img src="img/mainlogo.png" alt="logio">
+            <p> November 21 1963, that a small rocket took off from Thumba on the outskirts of Thiruvananthapuram</p>
+          </div>
+        </div>
+      </div>
+
+      <p>Location <br>
+        Thumba's location at 8°32'34" N and 76°51'32" E is ideal for low-altitude, upper atmosphere and ionosphere studies. Thumba is a small fishing village situated close to the Thiruvananthapuram airport in Kerala. Thumba is also one of the farthest points from Pakistan, China, Afghanistan and Bangladesh</p>
+
+
+    </div>
+
+    <div class="about-section">
+      <h3>Contribution of Vikram Sarabhai to DRDO</h3>
+
+      <p>After the death of physicist Homi Bhabha in 1966, Sarabhai was appointed chairman of the Atomic Energy
+        Commission of India. Carrying forward Bhabha’s work in the field of nuclear research, Sarabhai was largely
+        responsible for the establishment and development of India’s nuclear power plants. He laid the foundations for
+        the indigenous development of nuclear technology for defence purposes.</p>
+
+      <div class="flex">
+        <div class="vairamsarabhai-1">
+          <img src="img/vikramsarabhai/6.png" alt="img">
+          <div class="imagehover"> <img src="img/mainlogo.png" alt="logio">
+            <p> two giants of science in one frame: Homi Jehangir Bhabha, Vikram Sarabhai</p>
+          </div>
+        </div>
+
+
+
+        <div class="vairamsarabhai-1">
+          <img src="img/vikramsarabhai/vikram met homi.jpg" alt="img">
+          <div class="imagehover"> <img src="img/mainlogo.png" alt="logio">
+            <p> Four giants of science in one frame:Shanti Swaroop Bhatnagar, Homi Jehangir Bhabha, CV Raman, Vikram
+              Sarabhai</p>
+          </div>
+        </div>
+      </div>
+
+      <p>As a result of Dr. Sarabhai's dialogue with NASA in 1966, Satellite Instructional Television Experiment or SITE
+        was an experimental satellite communications project launched in India in 1975, designed jointly by NASA and the
+        Indian Space Research Organization (ISRO).
+
+        The project made available informational television programs to rural India. The main objectives of the
+        experiment were to educate the financially backward and academically illiterate people of India on various
+        issues via satellite broadcasting, and also to help India gain technical experience in the field of satellite
+        communications.</p>
+
+
+    </div>
+
+
+    <div class="about-section">
+      <h3>How did ISRO come into being? </h3>
+
+      <p>The Indian Space Research Organisation (ISRO) is India's national space agency. India has been steadily
+        building its launching and exploration capabilities for decades. Its roots date back to 1962, when India's first
+        prime minister, Jawaharlal Nehru, enlisted physicist Vikram Sarabhai to set up the Indian National Committee for
+        Space Research (INCOSPAR). Later, INCOSPAR was superseded by ISRO in 1969.</p>
+
+      <div class="flex">
+        <div class="vairamsarabhai-1">
+          <img src="img/vikramsarabhai/2.png" alt="img">
+          <div class="imagehover"> <img src="img/mainlogo.png" alt="logio">
+            <p> Isro</p>
+          </div>
+        </div>
+
+        <div class="vairamsarabhai-1">
+          <img src="img/vikramsarabhai/84hme1d8_cartosat3_625x300_28_November_19.png" alt="img">
+          <div class="imagehover"> <img src="img/mainlogo.png" alt="logio">
+            <p>India's PSLV-C47 rocket on Wednesday morning successfully put into orbit CARTOSAT-3</p>
+          </div>
+        </div>
+      </div>
+
+      <p>The Department of Space was created in 1972 and ISRO became a part of it and remains so to date. The Space
+        Department reports directly to the Prime Minister of the country. During 1975-76, the Satellite Instructional
+        Television Experiment (SITE) was conducted which was hailed as 'the largest sociological experiment in the
+        world’.</p>
+
+
+    </div>
+
+
+    <div class="about-section">
+      <h3>Aryabhata: India's First Satellite </h3>
+
+      <p>The Indian satellite programme began in the 1970s after the success of the Indian Space Research Organisation's
+        (ISRO) success of the Rohini rocket programme in the 1960s. Reportedly, Vikram Sarabhai, the ISRO's founder
+        appointed a team of scientists and engineers led by space scientist Dr UR Rao to develop the satellite.</p>
+
+      <div class="flex">
+        <div class="vairamsarabhai-1">
+          <img src="img/vikramsarabhai/3.png" alt="img">
+          <div class="imagehover"> <img src="img/mainlogo.png" alt="logio">
+            <p> Aryabhata: India's First Satellite</p>
+          </div>
+        </div>
+
+        <div class="vairamsarabhai-1">
+          <img src="img/vikramsarabhai/ugc6sgjl2qt41.jpg" alt="img">
+          <div class="imagehover"> <img src="img/mainlogo.png" alt="logio">
+            <p> OnThisDay in 19 Apr, 1975, history was made when India’s first satellite - Aryabhata, was launched from
+              Kapustin Yar in Russia.</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+
+    <div class="about-section">
+      <h3>Vikram Sarabhai’s legacy </h3>
+
+      <p>
+
+      The 100th birth anniversary of Vikram A Sarabhai, the doyen of space research in India, has just passed, and the lander in Chandrayaan-2, India’s ambitious lunar mission that puts it in the elite club of space-exploring nations, has been named Vikram, an apt tribute. But, it is indeed Isro’s success that is the most befitting tribute to the vision of the Cambridge-trained scientist who, at 28 years of age, laid the foundations of India’s space programme way back in 1947, by persuading a handful of prominent business people to fund a research institution near his home. That is how the Physical Research Laboratory in Ahmedabad, the cradle of India’s space research, was born. Sarabhai, a contemporary of Homi J Bhaba, the father of India’s nuclear programme, and served as the chairman of the Atomic Energy Commission. Buoyed by the vision they shared on nation-building with Jawaharlal Nehru, Sarabhai and Bhaba put India on the path to developing the technological muscle it has today. Some of India’s top institutions—the Indian Institute of Management, Ahmedabad, and the Space Application Centre (under the aegis of Isro), to name two—owe their existence to Sarabhai’s vision and efforts.
+      
+      The establishment of Isro, however, was his crowning achievement. Just as Nasa is inextricably linked to Wernher von Braun and the Soviet space program is to Sergei Korolev, there is no celebrating Isro without invoking Sarabhai. At a time when India had just shed its colonial shackles and was faced with daunting developmental challenges, there was not much support for the state investing in space exploration and research, a fledgling sector even in the rich nations of the time. Once, defending India’s investment in space research, Sarabhai said, “Space research is in relation to national capability, it generates self-confidence.” Decades later, Isro is living testimony of the unshakeable truth of those words. It also helped that Sarabhai, as the pioneer of the Indian space programme, made smart choices with regards to projects that a portion of the government’s scant resources was being poured into. He selected projects that had a potential to address some of the newly-independent nation’s toughest challenges—communication, meteorology, etc—and thus ensured government support continued to unfailingly. The breadth of his connections in academia, policy and business across the globe helped India collaborate with both the Americans and the Soviets. It helped that every time he spoke at global fora, he would somehow manage to spin Isro as less a competition to the rich nations than a space agency harbouring ambitions of impact on terra firma. In the real world, Sarabhai was busy seeding the creation and the launch of India’s first satellite, Aryabhatta, and the space exploration vision that Isro is giving fruition to today. From Aryabhatta to Chandrayaan, India has walked a long way in a short while, and the bulk of the credit must go to Sarabhai and the other founding fathers of independent India. That said, Sarabhai’s legacy is not just Isro, but also nurturing some of the best minds of his times to take the space programme forward, and thus fostering a lasting culture of the pursuit of excellence at the agency that has given India its Mars and Moon missions.
+      
+      Isro keeps pushing the envelope on many fronts, and the list of feats that force the world to take note is growing longer. As the nation celebrates these success, it is important to remember and reflect on the fact that it all began with Sarabhai’s unwavering faith in the potential impact of a modest laboratory in Ahmedabad.
+      </p>
+
+      <div class="flex">
+        <div class="vairamsarabhai-1">
+          <img src="img/vikramsarabhai/5.png" alt="img">
+          <div class="imagehover"> <img src="img/mainlogo.png" alt="logio">
+            <p>Vikram Sarabhai and Jawaharlal Nehru at the inauguration of the first building on the campus of the
+              Physical Research Laboratory, recognised as the cradle of the Indian space programme, on April 10, 1954 |
+              Image courtesy: PRL, Ahmedabad. </p>
+          </div>
+        </div>
+
+        <div class="vairamsarabhai-1">
+          <img src="img/vikramsarabhai/wactpmecxj-1573972550.jpg" alt="img">
+          <div class="imagehover"> <img src="img/mainlogo.png" alt="logio">
+            <p> Vikram Sarabhai speaks. Among those sitting are JRD Tata (extreme left), EMS Namboodiripad, Chief
+              Minister of Kerala (extreme right), Prime Minister Indira Gandhi, (second from right),and Kerala Governor
+              V Viswanathan (third from right).</p>
+          </div>
+        </div>
+      </div>
+
+
+      <p> Vikram Sarabhai’s legacy lives strong today and continues in the Indian space programme and the nuclear
+        programme, both of which focus on indigenous development just as he envisioned. <br>
+
+        The lander of India’s Chandrayaan-2, Vikram, was named after him, and so was the Vikram Sarabhai Space Centre
+        (VSSC), ISRO’s facility for rocket development in Thiruvananthapuram. <br>
+
+        A crater on the moon, at Mare Serenitatis or Sea of Serenity, visible to us on the near side, is called the
+        Sarabhai crater in his honour.</p>
+
+    </div>
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="isroallmission-contactbar">
+
+    <div class="addressbar">
+      <div class="addresbar1">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3> ADDRESS</h3>
+        <p> Director, Office of Media and Public Relations (OMPR), ISRO Hqs
+          Antariksh Bhavan, New BEL Road
+          Bengaluru-560094</p>
+      </div>
+      <div class="addresbar1">
+        <i class="fas fa-phone-alt"></i>
+        <h3> PHONE NUMBER</h3>
+        <p>+91 80 22172294 </p>
+        <p>+91 80 22172294 </p>
+      </div>
+
+      <div class="addresbar1">
+        <i class="fas fa-envelope"></i>
+        <h3> E-MAIL</h3>
+        <p>https://www.isro.gov.in</p>
+        <p>https://www.sac.gov.in
+        </p>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+  </div>
+
+  <div class="arrow" onclick="scrollwin()">&#x2191;</div>
+
+
+
+  <div class="footerbg">
+    <img src="img/mainlogo.png" alt="logo">
+    <div class="footer1">
+
+
+      <div class="subfooter">
+        <h1> Menubar Links</h1>
+        <ul>
+          <li> <a href="index.html"> Home</a></li>
+          <li> <a href="about-isro.html"> About ISRO</a></li>
+          <li> <a href="project-mom.html"> Project-MOM</a></li>
+          <li> <a href="our-team.html"> Our Team</a></li>
+          <li> <a href="gallery.html"> Gallery</a></li>
+          <li> <a href="news.html"> News </a></li>
+        </ul>
+      </div>
+      <div class="subfooter">
+        <h1> Our Popular Mission</h1>
+        <ul>
+          <li> <a href="https://yourstory.com/2017/02/isro-achievements/amp"> Mangalyaan or MOM, 2014</a></li>
+          <li> <a href="https://yourstory.com/2017/02/isro-achievements/amp"> launching 104 satellites, 2017</a></li>
+          <li> <a href="https://yourstory.com/2017/02/isro-achievements/amp">Chandrayaan 1, 2008</a></li>
+          <li> <a href="https://yourstory.com/2017/02/isro-achievements/amp">Heaviest Commercial Mission, 2015</a></li>
+          <li> <a href="https://yourstory.com/2017/02/isro-achievements/amp">Indian Regional Navigation Satellite System
+            </a></li>
+          <li> <a href="https://yourstory.com/2017/02/isro-achievements/amp "> Space Capsule Recovery Experiment, 2007
+            </a></li>
+        </ul>
+      </div>
+
+      <div class="subfooter">
+        <h1> Important Links</h1>
+        <ul>
+          <li> <a href="index.html"> Home</a></li>
+          <li> <a href="about-isro.html"> About ISRO</a></li>
+          <li> <a href="project-mom.html"> Project-MOM</a></li>
+          <li> <a href="our-team.html"> Our Team</a></li>
+          <li> <a href="gallery.html"> Gallery</a></li>
+          <li> <a href="news.html"> News </a></li>
+        </ul>
+      </div>
+
+      <div class="subfooter">
+        <h1> Social</h1>
+        <ul>
+          <li> <a href="https://www.facebook.com/ISRO/"> Facebook</a></li>
+          <li> <a href="https://twitter.com/isro?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> Twitter</a>
+          </li>
+          <li> <a href="https://in.linkedin.com/company/officialisrol"> Linkedin</a></li>
+          <li> <a href="https://www.instagram.com/isro.in/?hl=en"> Instagram</a></li>
+          <li> <a href="https://www.youtube.com/channel/UCw5hEVOTfz_AfzsNFWyNlNg"> YouTube</a></li>
+          <li> <a href="https://www.kooapp.com/profile/isro"> Koo </a></li>
+        </ul>
+      </div>
+
+    </div>
+    <h3> &#169; copyright &#9; by rupesh jha || arena animation </h3>
+  </div>
+
+
+
+
+
+  <script src="script.js"></script>
+  <script>
+    $(document).ready(function(){
+
+$(window).on('scroll load',function(){
+
+  if($(window).scrollTop() > 0){
+    $('.arrow').show();
+  }
+  else{
+    $('.arrow').hide();
+  }
+});
+});
+  </script>
+</body>
+
+</html>

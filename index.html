@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Isro-Mangalyaan</title>
+  <link rel="shortcut icon" href="img/isro-favicon.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://kit.fontawesome.com/1def09dae5.js" crossorigin="anonymous"></script>
+  <script src="jquery-3.6.0.min.js"></script>
+</head>
+
+<body onload="myfunction();">
+
+  <div id="loading"></div>
+
+  <!--  container start -->
+  <div class="container">
+  
+    <!--  tobar start -->
+    <div class="topbar">
+
+      <!-- logo start -->
+      <div class="logo">
+        <a href="index.html"> <img src="img/mainlogo.png" alt="logo"></a>
+      </div>
+      <!-- logo end -->
+
+      <!-- menu start -->
+      <div class="menu">
+
+        <input type="checkbox" id="click">
+        <label for="click" class="hambtn"> <i class="fas fa-bars"></i></label>
+        <ul>
+          <li> <a href="index.html"> Home</a></li>
+          <li> <a href="about-isro.html"> About ISRO</a></li>
+          <li> <a href="project-mom.html"> Project-MOM</a></li>
+          <li> <a href="our-team.html"> Our Team</a></li>
+          <li> <a href="gallery.html"> Gallery</a></li>
+          <li> <a href="news.html"> News </a></li>
+        </ul>
+
+        <input type="search" value="Type to search..." id="search" >
+        <!-- <i class="fas fa-search" id="fa-search"  ></i> -->
+
+        <div class="bimal" id="bimal">
+         
+          
+          <input type="search" value="Type to search..." id="searchi" >
+          <i class="fas fa-times"  onclick="hidemenu()" ></i>
+       
+        </div>
+        <i class="fas fa-search" id="style"  onclick="showmenu()"></i>
+
+     
+
+
+        <input type="checkbox" id="fclick">
+        <label for="fclick">
+          <i class="fas fa-user" id="active"> </i>
+        </label>
+
+        <div class="form">
+          <h1> Login</h1>
+          <h2> Please Loging to explore Isro</h2>
+
+          <form action="#" method="get">
+            <input type="email" placeholder="rupeshjha7796@gmail.com">
+            <input type="password" placeholder="password">
+            <h3> <a href="#">Forgot password ? </a></h3>
+            <input type="submit" value="Log In" id="fbutton">
+            <h4> Or</h4>
+            <h5> Login With</h5>
+          </form>
+
+
+          <div class="social">
+            <a href="https://www.facebook.com/ISRO/"> <i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"> <i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/"> <i class="fab fa-twitter"></i></a>
+          </div>
+
+        </div>
+
+
+      </div>
+      <!-- menu end -->
+    </div>
+    <!-- topbar end -->
+
+
+  </div>
+  <!-- container end -->
+
+  <!-- banner start -->
+  <div class="banner">
+
+    <div class="bannerslide">
+      <div class="txt">
+
+        <h1> MARS ORBITER MISSION</h1>
+        <p> India Is The First Country <br>To Reach Mars in its First Attempt... </p>
+        <a href="project-mom.html" class="bannerbtn">Mars Orbiter Mission</a>
+        </p>
+      </div>
+      <img src="img/1.png" style="width: 100%;">
+    </div>
+
+    <div class="bannerslide">
+      <div class="txt">
+        <h1> LAUNCH DATE 05,NOVEMBER.2013</h1>
+        <p> 05,NOVEMBER.2013 <br> When ISRO Launched PSLV-C25 Towards Mars... </p>
+        <a href="project-mom.html" class="bannerbtn"> 05,NOVEMBER.2013</a>
+      </div>
+      <img src="img/2.png" style="width: 100%; ">
+    </div>
+
+    <div class="bannerslide">
+      <div class="txt">
+        <h1>MARS ORBITER MISSION TEAM</h1>
+        <p>24,SEPTEMBER.2014<br> When PSLV-C25 Entered Mars Obitier - <br>Isro Team celbrated Victory Of his
+          Hardwork... </p>
+        <a href="our-team.html" class="bannerbtn"> Isro Team</a>
+      </div>
+      <img src="img/3.png" style="width: 100%;  ">
+    </div>
+
+
+
+
+
+    <!-- onclick js -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="dotsbox">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </div>
+  <!-- /onclick js -->
+  <!-- banner end -->
+
+  <div class="marquee">
+
+    <marquee width="90%" direction="left">
+      <ul>
+        <li> <a href="#"> Click here to register yourself for Isro registration</a></li>
+        <li> <a href="#"> Make Your Career in Isro</a></li>
+        <li> <a href="#"> Isro invite you to expole Isro</a></li>
+        <li> <a href="#"> Click here to join School project competition </a></li>
+      </ul>
+    </marquee>
+
+  </div>
+
+  <div class="container">
+
+
+
+
+    <!-- aboust isrostart -->
+    <div class="aboutisro">
+
+      <!-- isro-para start -->
+      <div class="isro-para">
+        <h1> ABOUT ISRO</h1>
+        <P>India decided to go to space when Indian National Committee for Space Research (INCOSPAR) was set up by the
+          Government of India in 1962. With the visionary Dr Vikram Sarabhai at its helm, INCOSPAR set up the Thumba
+          Equatorial Rocket Launching Station (TERLS) in Thiruvananthapuram for upper atmospheric research.
+          Indian Space Research Organisation, formed in 1969, superseded the erstwhile INCOSPAR. Vikram Sarabhai, having
+          identified the role and importance of space technology in a Nation's development, provided ISRO the necessary
+          direction to function as an agent of development. ISRO then embarked on its mission to provide the Nation
+          space based services and to develop the technologies to achieve the same independen
+          Throughout the years, ISRO has upheld its mission of bringing space to the service of the common man, to the
+          service of the Nation. In the process, it has become one of the six largest space agencies in the world. ISRO
+          maintains one of the largest fleet of communication satellites (INSAT) and remote sensing (IRS) satellites,
+          that cater to the ever growing demand for fast and reliable communication and earth observation respectively.
+          ISRO develops and delivers application specific satellite products and tools to the Nation: broadcasts,
+          communications, weather forecasts, disaster management tools, Geographic Information Systems, cartography,
+          navigation, telemedicine, dedicated distance education satellites being some of them.
+          To achieve complete self reliance in terms of these applications, it was essential to develop cost efficient
+          and reliable launch systems, which took shape in the form of the Polar Satellite Launch Vehicle (PSLV). The
+          famed PSLV went on to become a favoured carrier for satellites of various countries due to its reliability and
+          cost efficiency, promoting unprecedented international collaboration. The Geosynchronous Satellite Launch
+          Vehicle (GSLV) was developed keeping in mind the heavier and more demanding Geosynchronous communication
+          satellites.
+          <span> <a href="#"> Click me to read more abot ISRO</a></span>
+        </P>
+
+        <a href="about-isro.html" class="btn"> ABOUT ISRO</a>
+      </div>
+      <!-- isro-para end -->
+
+
+
+
+      <!-- isro-para1 -->
+      <div class="isro-para1">
+
+        <div class="homeimgdiv"> <img src="img/firstmissile.png">
+          <div class="layerhover">
+            <img src="img/mainlogo.png">
+            <p> Carrying The Rocket On A Bicycle <br> Launch Aryabhata spacecraft</p>
+            <a href="#"> Aryabhata spacecraft </a>
+          </div>
+        </div>
+
+
+        <div class="homeimgdiv1"> <img src="img/sarabhai-abdulkalam.png">
+          <div class="layerhover">
+            <img src="img/mainlogo.png">
+            <p>Dr Sarabhai and Dr Kalam.<br> A photograph from the early stages of the Indian space programme.
+              <a href="#"> Da sarbhai & Dr Kalam </a>
+          </div>
+        </div>
+
+      </div>
+      <!-- isro para end -->
+
+
+    </div>
+    <!-- about isro end -->
+
+
+    <!--  aboutpart2 -->
+
+
+
+    <div class="isroallmission">
+      <h1> ISRO ALL MISSION</h1>
+      <div class="suballmission">
+        <div class="diva">
+          <h1> Launchers</h1>
+          <h3> Since 10 August 1979, ISRO has completed a total 83 MISSION's,
+            out of which 76 have been successful and 7 have unsuccessful </h3>
+          <h2> 83</h2>
+
+
+          <div class="submissionimg"> <img src="img/slv.png">
+            <div class="layerhover1">
+              <img src="img/mainlogo.png">
+              <p>On August 10,1977 Isro Launced First Mission .<br>
+                <a href="#"> Aug 10,1977 </a>
+            </div>
+          </div>
+
+        </div>
+        <div class="diva">
+          <h1>Spacecrafts</h1>
+          <h3> Since April 19,1975 ISRO has completed a total 127 MISSION's,
+            out of which 118 have been successful and 9 have unsuccessful </h3>
+          <h2> 127</h2>
+          <div class="submissionimg"> <img src="img/188.png">
+            <div class="layerhover1">
+              <img src="img/mainlogo.png">
+              <p>On Apr 19,1974 Isro Launced First Spacecrafts.<br>
+                <a href="#"> Apr 19,1974 </a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="diva">
+          <h1>Mission Mangalyaan</h1>
+          <h3> The Mars Orbiter Mission (MOM) or Mangalyaan, is a space probe launched by the ISRO on November 5, 2013. </h3>
+          <h2> 24 Sep 2014 </h2>
+          <div class="submissionimg"> <img src="img/marsorbitier.png">
+            <div class="layerhover1">
+              <img src="img/mainlogo.png">
+              <p>On Aug 24,2014 PSLV-C25 entered mars .<br>
+                <a href="#"> September24, 2014 </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <!-- about part end -->
+
+    <div class="aboutisro">
+
+      <div class="isro-para">
+        <h1> PROJECT-MOM</h1>
+        <P>
+
+          Marking India's first venture into the interplanetary space, MOM will explore and observe Mars surface
+          features, morphology, mineralogy and the Martian atmosphere. Further, a specific search for methane in the
+          Martian atmosphere will provide information about the possibility or the past existence of life on the planet.
+
+          The enormous distances involved in interplanetary missions present a demanding challenge; developing and
+          mastering the technologies essential for these missions will open endless possibilities for space exploration.
+          After leaving Earth, the Orbiter will have to endure the Interplanetary space for 300 days before Mars
+          capture. Apart from deep space communications and navigation-guidance-control capabilities, the mission will
+          require autonomy at the spacecraft end to handle contingencies.
+
+          Once India decided to go to Mars, ISRO had no time to lose as the nearest launch window was only a few months
+          away and it could not afford to lose the chance, given the next launch would present itself after over 780
+          days, in 2016. Thus, mission planning, manufacturing the spacecraft and the launch vehicle and readying the
+          support systems took place swiftly.
+
+
+          <span> <a href="#"> Click me to read more abot ISRO</a></span>
+        </P>
+
+        <a href="about-isro.html" class="btn">PROJECT-MOM</a>
+      </div>
+
+
+      <div class="isro-para1">
+
+        <div class="homeimgdiv"> <img src="img/mars1.png">
+
+          <div class="layerhover">
+            <img src="img/mainlogo.png">
+            <p> November 5, 2013 <br> When Isro Launced PROJECT-MOM</p>
+            <a href="#"> November 5, 2013 </a>
+          </div>
+          
+        </div>
+
+
+        <div class="homeimgdiv1"> <img src="img/mars2.png">
+          <div class="layerhover">
+            <img src="img/mainlogo.png">
+            <p> September 24, 2014<br> When PSLV-C25 entered Mars Orbiter. </p>
+            <a href="#"> September 24, 2014 </a>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+
+
+
+    <div class="isroallmission">
+      <div class="suballmission">
+        <div class="diva">
+          <h1>Launch Vehicle</h1>
+          <h3>MOM was launched aboard PSLV C-25, which was an XL variant of the PSLV, one of world's most reliable
+            launch vehicles. The XL variant was earlier used to launch Chandrayaan (2008), GSAT-12 (2011) and RISAT-1
+            (2012). </h3>
+
+
+          <div class="submissionimg"> <img src="img/marv1.png">
+            <div class="layerhover1">
+              <img src="img/mainlogo.png">
+              <br>
+              <a href="#"> Read More </a>
+            </div>
+          </div>
+
+        </div>
+        <div class="diva">
+          <h1>Spacecrafts</h1>
+          <h3> Based on the I-1-K satellite bus of ISRO that has proved its reliability over the years in Chandrayaan-1
+            and the IRS and INSAT series of satellites,the MOM spacecraft carries 850 kg of fuel and 5 science
+            payloads.</h3>
+          <div class="submissionimg"> <img src="img/marv2.png">
+            <div class="layerhover1">
+              <img src="img/mainlogo.png">
+              <br>
+              <a href="#"> Read More </a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="diva">
+          <h1>Ground Segment</h1>
+          <h3>The Orbiter is being tracked by the (IDSN), located outside Bangalore. IDSN's 32
+            m and 18 m diameter antennas are being complemented by NASA - JPL's Deep Space <br>Network.</h3>
+          <div class="submissionimg"> <img src="img/marv3.png">
+            <div class="layerhover1">
+              <img src="img/mainlogo.png">
+              <br>
+              <a href="#"> Read More </a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="diva">
+          <h1>Mission Profile</h1>
+          <h3>The Mars Mission was envisaged as a rendezvous problem, wherein the Mars orbiter is manoeuvred into a
+            departure hyperbolic trajectory, escapes the SOI of Earth and thereafter enters the SOI of <br>Mars.</h3>
+          <div class="submissionimg"> <img src="img/marv4.png">
+            <div class="layerhover1">
+              <img src="img/mainlogo.png">
+              <br>
+              <a href="#"> Read More </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="aboutisro">
+
+      <div class="isro-para">
+        <h1> ABOUT TEAM</h1>
+        <P>ISRO Mangalyaan mission achieved success on September 24, 2014. Here's a look at the timeline of events
+          behind it and the people that made the mission a reality.
+
+
+          On September 24, 2014, India created history when it achieved success with its first-ever Mars mission,
+          Mangalyaan. The mission was launched by ISRO on November 5, 2013, onboard PSLV-C25 rocket which took the Mars
+          Orbiter into space on its twenty-fifth flight.
+
+          The mission was launched from the first launch pad at Satish Dhawan Space Centre SHAR, Sriharikota and has
+          since remained in the planet's orbit, outliving its initial mission life of 6 months.
+
+          Mangalyaan's flight of great significance to the nation as it not only became India's first interplanetary
+          mission but also made it the first Asian nation to reach Mars' orbit and more importantly, the first nation in
+          the world to do so on its first attempt
+          <span> <a href="#"> Click me to read more abot ISRO</a></span>
+        </P>
+
+        <a href="about-isro.html" class="btn"> ABOUT TEAM</a>
+      </div>
+
+
+      <div class="isro-para1">
+
+        <div class="homeimgdiv"> <img src="img/about1.png">
+          <div class="layerhover">
+            <img src="img/mainlogo.png">
+            <p> Former Isro Chairman <br> Mr.Koppillil Radhakrishnan</p>
+            <a href="#"> Mr.Koppillil Radhakrishnan </a>
+          </div>
+        </div>
+
+
+        <div class="homeimgdiv1"> <img src="img/about2.png">
+          <div class="layerhover">
+            <img src="img/mainlogo.png">
+            <p> Mr Chairman and Other Scientist Meet Prime Minister.</p>
+            <a href="#"> ISRO Team </a>
+          </div>
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+    <div class="isroallmission">
+
+      <div class="homeisroteam">
+
+
+     
+        <div class="isroteamsingle">
+          <div class="isroteamsingl1" style="border-radius: 100%; background: none; "> <img
+                  src="img/isroteam/isrochiefprofile.png"
+                  style="border-radius: 100%; border: 3px solid #fc766a ; ">
+
+
+              <h3> Koppillil Radhakrishnan</h3>
+              <p style="font-weight: bold;"> - Chairman ISRO</p>
+              <p>Koppillil Radhakrishnan (born 29 August 1949) is an Indian space scientist who headed the
+                  ISRO between November2009and December 2014 as Chairman of Space Commission
+                  Secretary of the Department of Space and Chairman of ISRO. Prior to this, he was the
+                  Director of Vikram
+                  Sarabhai Space Centre (2007-2009) and Director of National Remote Sensing Agency (2005-2008)
+                  of the
+                  Department of Space. He had a brief stint of five years (2000-2005) in the Ministry of Earth
+                  Sciences as
+                  Director of Indian National Centre for Ocean Information Services ...</p>
+              <a href="#"> READ MORE</a>
+              <div class="social">
+                  <i class="fab fa-facebook"></i>
+                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-twitter"></i>
+              </div>
+          </div>
+      </div>
+
+      <div class="isroteamsingle">
+          <div class="isroteamsingl1" style="border-radius: 100%; background: none;"> <img
+                  src="img/isroteam/isroprofile2.png"
+                  style="border-radius: 100%; border: 3px solid #fc766a ; ">
+              <h3> Mylswamy Annadurai</h3>
+              <p style="font-weight: bold;"> - Programme Director</p>
+              <p>Mylswamy Annadurai, popularly known as Moon Man of India, is an Indian scientist working as
+                  vice
+                  president for Tamil Nadu State Council for Science and Technology , Chairman, Board of
+                  Governors, National
+                  Design and Research Forum(NDRF. He was born on 2 July 1958, in a village called Kothavadi
+                  near Pollachi in
+                  Coimbatore district, Tamil Nadu state of India). Prior to taking this assignment he was with
+                  ISRO and
+                  served as Director, ISRO Satellite Centre , Bangalore. During his 36 years of service in
+                  ISRO, he had some
+                  of the major contributions, including two of the major missions of ISRO, Chandrayaan-1 and
+                  Mangalyaan...
+              </p>
+              <a href="#"> READ MORE</a>
+              <div class="social">
+                  <i class="fab fa-facebook"></i>
+                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-twitter"></i>
+              </div>
+          </div>
+      </div>
+      <div class="isroteamsingle">
+          <div class="isroteamsingl1" style="border-radius: 100%; background: none; "> <img
+                  src="img/isroteam/isroprofile3.png"
+                  style="border-radius: 100%; border: 3px solid #fc766a ; ">
+              <h3> S. Ramakrishnan</h3>
+              <p style="font-weight: bold;"> - Director</p>
+              <p>Dr Ramakrishnan, former Director of Vikram Sarabhai Space Centre at (ISRO), is one of the key
+                  architects
+                  of the Indian Polar Satellite Launch Vehicle (PSLV) program. He is noted for his decisive
+                  role in
+                  enhancing the performance of PSLV through systematic upgrading and evolving robust
+                  operational protocol to
+                  ensure sustained vehicle reliability and mission success. His major work has been in the
+                  areas of
+                  Propulsion Systems Development, Launch Vehicle Engineering and Project management. In
+                  recognition of his
+                  outstanding contributions, he received ‘Padma Shri’ in the field of Science & Engineering in
+                  2003... </p>
+              <a href="#">READ MORE</a>
+              <div class="social">
+                  <i class="fab fa-facebook"></i>
+                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-twitter"></i>
+              </div>
+          </div>
+      </div>
+      <div class="isroteamsingle">
+          <div class="isroteamsingl1" style="border-radius: 100%; background: none; "> <img
+                  src="img/isroteam/isroprofile4.png"
+                  style="border-radius: 100%; border: 3px solid #fc766a ; ">
+              <h3> P. Kunhikrishnan</h3>
+              <p style="font-weight: bold;"> - Project Director</p>
+              <p>
+                  P. Kunhikrishnan, a Distinguished Scientist (Apex Scale) of (ISRO) and
+                  Member of Space Commission, Govt. of India was Director, URSC from August 2018 to May 2021.
+                  He assumed as Director of U.R. Rao Satellite Centre (URSC), the lead Centre in the country
+                  for design,
+                  development and realization of all the satellites of ISRO, on 1st August, 2018. During his
+                  tenure, he
+                  spearheaded the satellite fraternity in ISRO towards realising various types of satellites
+                  to meet the
+                  increasing national requirements in the areas like communication, navigation, remote
+                  sensing, meteorology
+                  and inter-planetary exploration... </p>
+              <a href="#"> READ MORE</a>
+              <div class="social">
+                  <i class="fab fa-facebook"></i>
+                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-twitter"></i>
+              </div>
+          </div>
+      </div>
+      </div>
+    </div>
+
+
+    <div class="isroallmission">
+
+      <h1 style="font-size: 70px;"> EXPOLRE OUR GALLERY</h1>
+      <div class="homeisroteam">
+
+
+        <div class="contentbox">
+          <div class="gallery"> <img src="img/gallery/mars4.jpg" alt="img"></div>
+          <div class="galleryabout"> <img src="img/mainlogo.png" alt="logo">
+            <p>Regional dust storm activities over Northern Hemisphere of Mars - captured by MCC</p>
+          </div>
+        </div>
+
+
+        <div class="contentbox">
+          <div class="gallery"> <img src="img/gallery/globalshotofmars.png" alt="img"></div>
+          <div class="galleryabout"> <img src="img/mainlogo.png" alt="logo">
+            <p>Global Shot of Mars</p>
+          </div>
+        </div>
+
+
+        <div class="contentbox">
+          <div class="gallery"> <img src="img/gallery/marsmoonphobos.jpg" alt="img"></div>
+          <div class="galleryabout"> <img src="img/mainlogo.png" alt="logo">
+            <p>Phobos, one of the two natural satellites of Mars silhouetted against the Martian surface</p>
+          </div>
+        </div>
+
+
+        <div class="contentbox">
+          <div class="gallery"> <img src="img/gallery/mccsnap3dview01.jpg" alt="img"></div>
+          <div class="galleryabout"> <img src="img/mainlogo.png" alt="logo">
+            <p>mage from Mars global mosaic</p>
+          </div>
+        </div>
+
+        <div class="contentbox">
+          <div class="gallery"> <img src="img/gallery/arisamons3dportrayal.jpg" alt="img"></div>
+          <div class="galleryabout"> <img src="img/mainlogo.png" alt="logo">
+            <p>Spectacular 3D view of Arsia Mons, a huge volcano on Mars</p>
+          </div>
+        </div>
+
+
+        <div class="contentbox">
+          <div class="gallery"> <img src="img/gallery/olympusmons2.jpg" alt="img"></div>
+          <div class="galleryabout"> <img src="img/mainlogo.png" alt="logo">
+            <p>3D Portyal</p>
+          </div>
+        </div>
+
+
+        <div class="contentbox">
+          <div class="gallery"> <img src="img/gallery/tharsis-t.png" alt="img"></div>
+          <div class="galleryabout"> <img src="img/mainlogo.png" alt="logo">
+            <p>Shield Volcano Tharsis Tholus</p>
+          </div>
+        </div>
+
+
+        <div class="contentbox">
+          <div class="gallery"> <img src="img/gallery/slide2.JPG" alt="img"></div>
+          <div class="galleryabout"> <img src="img/mainlogo.png" alt="logo">
+            <p>Impact crater located SW of Huygens crater</p>
+          </div>
+        </div>
+
+
+        <div class="contentbox">
+          <div class="gallery"> <img src="img/gallery/bakhuysen.jpg" alt="img"></div>
+          <div class="galleryabout"> <img src="img/mainlogo.png" alt="logo">
+            <p>MCC Image of Bakhuysen Crater</p>
+          </div>
+        </div>
+
+
+        <div class="contentbox">
+          <div class="gallery"> <img src="img/gallery/masursky.jpg" alt="img"></div>
+          <div class="galleryabout"> <img src="img/mainlogo.png" alt="logo">
+            <p>Masursky and Sagan - Craters on the planet Mars</p>
+          </div>
+        </div>
+
+
+        <div class="contentbox">
+          <div class="gallery"> <img src="img/gallery/mueller.jpg" alt="img"></div>
+          <div class="galleryabout"> <img src="img/mainlogo.png" alt="logo">
+            <p>Tyrrhenum quadrangle of Mars</p>
+          </div>
+        </div>
+
+
+        <div class="contentbox">
+          <div class="gallery"> <img src="img/gallery/picture1-web.jpg" alt="img"></div>
+          <div class="galleryabout"> <img src="img/mainlogo.png" alt="logo">
+            <p>Impact crater located SW of Huygens crater</p>
+          </div>
+        </div>
+
+    
+
+      </div>
+
+      <a href="gallery.html"> EXPOLRE MORE</a>
+    </div>
+
+
+    <div class="isroallmission">
+
+      <h1 style="font-size: 70px;"> NEWS-UPDATES</h1>
+      <div class="homeisroteam">
+
+
+        <div class="news">
+          <div class="newsbox">
+            <div class="gallery"> <img src="img/gallery/mars-ap.png" alt="img"></div>
+            <div class="galleryabout"> <img src="img/mainlogo.png" alt="logo">
+              <p>The orbiter lifted off from the Satish Dhawan Space Centre in Sriharikota in November 2013</p>
+            </div>
+          </div>
+
+          <h1> Mangalyaan: India's race for space success</h1>
+          <h2> India's maiden mission to Mars, the Mangalyaan, has arrived in orbit after a 300-day marathon covering
+            over 670 million kilometres (420 million miles). Science writer Pallava Bagla traced its journey as it
+            neared the Red Planet.</h2>
+          <br> <span>On the morning of 24 September, the Indian Space Research Organisation (Isro) slowed down the
+            spacecraft sufficiently so it could be caught in the orbit of Mars.
+
+            "India will become the first Asian country to have achieved this and if it happens in the maiden attempt
+            itself, India could become the first country in the world to have reached distant Mars on its own steam in
+            the first attempt," said Isro chairman K Radhakrishnan as it approached.
+
+            Both Russia and the US failed in their maiden attempts. The first Chinese mission to Mars, called Yinghuo-1,
+            failed in 2011 alongside the Russian Phobos-Grunt mission with which it was launched. Earlier in 1998, the
+            Japanese mission to Mars ran out of fuel and was lost.
+
+            Undoubtedly, India - a late starter - is way ahead of its Asian rivals in trying to get to the Red Planet.
+
+            "We are really not racing with anyone, but with ourselves to reach the next level of excellence," said Mr
+            Radhakrishnan.
+          </span><br>
+
+          <a href="https://www.bbc.com/news/world-asia-india-29307123"> READ MORE</a>
+        </div>
+
+
+
+
+
+        <div class="news">
+          <div class="newsbox">
+            <div class="gallery"> <img src="img/news/Mars_Orbiter_Mission_Mangalyaan_ISRO_650.png" alt="img"></div>
+            <div class="galleryabout"> <img src="img/mainlogo.png" alt="logo">
+              <p>ISRO's Mars Orbiter Mission, informally called Mangalyaan, ahead of its launch. (Indian Space Research
+                Organisation)</p>
+            </div>
+          </div>
+
+          <h1>Mangalyaan Among Best Inventions of 2014: TIME Magazine</h1>
+          <h2> New York: Mangalyaan has been named among the best inventions of 2014 by Time magazine which described it
+            as a technological feat that will allow India to flex its "interplanetary muscles."</h2>
+          <br> <span>"Nobody gets Mars right on the first try. The US didn't, Russia didn't, the Europeans didn't. But
+            on September 24, India did. That's when the Mangalyaan... went into orbit around the Red Planet, a
+            technological feat no other Asian nation has yet achieved," Time said about Mangalyaan, calling it "The
+            Supersmart Spacecraft."
+
+            Mangalyaan is among the 25 'Best Inventions of 2014' listed by Time magazine that are "making the world
+            better, smarter and-in some cases-a little more fun."
+
+            Developed by the Indian Space Research Organisation, the Mars spacecraft cost India just US $74 million,
+            less than the budget for the multi-Academy Award winning science fiction thriller film Gravity. Time said at
+            that price, the Mangalyaan is equipped with just five onboard instruments that allow it to do simple tasks
+            like measure Martian methane and surface composition.
+
+            "More important, however, it allows India to flex its interplanetary muscles, which portends great things
+            for the country's space programme and for science in general," Time said.
+          </span><br>
+
+          <a href="https://www.ndtv.com/india-news/mangalyaan-among-best-inventions-of-2014-time-magazine-702866"> READ
+            MORE</a>
+        </div>
+
+        <div class="news" style="overflow-y: scroll; scrollbar-color: #fc766a white  ;"> <a class="twitter-timeline"
+            href="https://twitter.com/isro?ref_src=twsrc%5Etfw">Tweets by isro</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+
+        <div class="youtubevideo"> <iframe width="100%" height="215" src="https://www.youtube.com/embed/mZ5y8dtpdZc"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen style="border-radius: 10px;"></iframe></div>
+        <div class="youtubevideo"> <iframe width="100%" height="215" src="https://www.youtube.com/embed/MPcmxVnzcsI"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen style="border-radius: 10px;"></iframe></div>
+        <div class="youtubevideo"> <iframe width="100%" height="215" src="https://www.youtube.com/embed/7NkFSh10eW8"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen style="border-radius: 10px;"></iframe></div>
+
+
+      </div>
+
+
+    </div>
+
+
+
+
+    <div class="isroallmission">
+
+      <h1 style="font-size: 70px;"> CONTACT ISRO</h1>
+
+      <div class="homeisroteam">
+
+        <div class="contactus"><iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7778.285263655245!2d77.55372802318405!3d12.898548671756949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3fde3b11ae65%3A0xafe3382ab81acb6c!2sISRO%20Layout%2C%20Bengaluru%2C%20Karnataka%20560078!5e0!3m2!1sen!2sin!4v1646387301587!5m2!1sen!2sin"
+            width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+        <div class="contactus">
+
+          <div class="from1">
+            <p style="font-family: poppinsm; font-size: 15px;color: rgb(179, 179, 179);"> Please fill the form carefull,
+              Please
+              drop us a line if you've any query.</p>
+
+            <form action="#" method="get">
+
+              <input type="text" name="cname" id="cname" placeholder="Rupesh">
+              <input type="text" name="clastname" id="clastname" placeholder="Jha">
+
+              <input type="email" name="cemail" id="cemail" placeholder="rupesh@gmail.com">
+              <input type="tel" name="ctel" id="ctel" placeholder="91+ 9999 89 9999">
+
+              <textarea name="query" id="query" placeholder="Write Your Query"></textarea>
+
+              <a href="#" id="submit"> SUBMIT DATA </a>
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="isroallmission-contactbar"> 
+
+      <div class="addressbar">
+        <div class="addresbar1">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3> ADDRESS</h3>
+          <p> Director, Office of Media and Public Relations (OMPR), ISRO Hqs
+            Antariksh Bhavan, New BEL Road
+            Bengaluru-560094</p>
+        </div>
+        <div class="addresbar1">
+          <i class="fas fa-phone-alt"></i>
+          <h3> PHONE NUMBER</h3>
+          <p>+91 80 22172294 </p>
+          <p>+91 80 22172294 </p>
+        </div>
+
+        <div class="addresbar1">
+          <i class="fas fa-envelope"></i>
+          <h3> E-MAIL</h3>
+          <p>https://www.isro.gov.in</p>
+          <p>https://www.sac.gov.in
+          </p>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+
+  </div>
+
+  <div class="arrow" onclick="scrollwin()">&#x2191;</div>
+
+
+
+
+  <div class="footerbg">
+    <img src="img/mainlogo.png" alt="logo">
+    <div class="footer1">
+
+     
+      <div class="subfooter">
+        <h1> Menubar Links</h1>
+        <ul>
+          <li> <a href="index.html"> Home</a></li>
+          <li> <a href="about-isro.html"> About ISRO</a></li>
+          <li> <a href="project-mom.html"> Project-MOM</a></li>
+          <li> <a href="our-team.html"> Our Team</a></li>
+          <li> <a href="gallery.html"> Gallery</a></li>
+          <li> <a href="news.html"> News </a></li>
+        </ul>
+      </div>
+      <div class="subfooter" >
+        <h1> Our Popular Mission</h1>
+        <ul>
+          <li> <a href="https://yourstory.com/2017/02/isro-achievements/amp"> Mangalyaan or MOM, 2014</a></li>
+          <li> <a href="https://yourstory.com/2017/02/isro-achievements/amp">  launching 104 satellites, 2017</a></li>
+          <li> <a href="https://yourstory.com/2017/02/isro-achievements/amp">Chandrayaan 1, 2008</a></li>
+          <li> <a href="https://yourstory.com/2017/02/isro-achievements/amp">Heaviest Commercial Mission, 2015</a></li>
+          <li> <a href="https://yourstory.com/2017/02/isro-achievements/amp">Indian Regional Navigation Satellite System </a></li>
+          <li> <a href="https://yourstory.com/2017/02/isro-achievements/amp "> Space Capsule Recovery Experiment, 2007 </a></li>
+        </ul>
+      </div>
+
+      <div class="subfooter">
+        <h1> Important Links</h1>
+        <ul>
+          <li> <a href="index.html"> Home</a></li>
+          <li> <a href="about-isro.html"> About ISRO</a></li>
+          <li> <a href="project-mom.html"> Project-MOM</a></li>
+          <li> <a href="our-team.html"> Our Team</a></li>
+          <li> <a href="gallery.html"> Gallery</a></li>
+          <li> <a href="news.html"> News </a></li>
+        </ul>
+      </div>
+
+      <div class="subfooter">
+        <h1> Social</h1>
+        <ul>
+          <li> <a href="https://www.facebook.com/ISRO/"> Facebook</a></li>
+          <li> <a href="https://twitter.com/isro?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> Twitter</a></li>
+          <li> <a href="https://in.linkedin.com/company/officialisrol"> Linkedin</a></li>
+          <li> <a href="https://www.instagram.com/isro.in/?hl=en"> Instagram</a></li>
+          <li> <a href="https://www.youtube.com/channel/UCw5hEVOTfz_AfzsNFWyNlNg"> YouTube</a></li>
+          <li> <a href="https://www.kooapp.com/profile/isro"> Koo </a></li>
+        </ul>
+      </div>
+     
+  </div>
+  <h3> &#169; copyright &#9;  by rupesh jha || arena animation </h3>
+  </div>
+  
+
+ 
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
